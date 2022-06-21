@@ -1,0 +1,21 @@
+﻿<Window x:Class="A2KatarzynaKarakow.AddCountry"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A2KatarzynaKarakow"
+        mc:Ignorable="d"
+        Title="AddCountry" Height="450" Width="800">
+    <Canvas>
+        <Label x:Name="lblAddCountryName" Content="Country Name" Margin="89,65,614,343"/>
+        <TextBox x:Name="txtCountryName" TextWrapping="Wrap" Margin="203,69,436,347" Width="120"/>
+        <Button x:Name="btnAddCountryName" Content="Add Country" Margin="146,296,573,118"/>
+        <Button x:Name="btnClose" Content="Close" Margin="267,296,500,118" Click="btnClose_Click"/>
+        <Label x:Name="lblValMess" Content="Validation Message" Margin="433,61,74,176"/>
+        <Label x:Name="lblAddCountryLanguage" Content="Country Language" Margin="80,110,614,298"/>
+        <TextBox x:Name="txtCountryLanguage" TextWrapping="Wrap" Margin="203,114,436,302" Width="120"/>
+        <Label x:Name="lblAddCountryCurrency" Content="Country Currency" Margin="84,151,610,257"/>
+        <TextBox x:Name="txtCountryCurrency" TextWrapping="Wrap" Margin="203,160,436,256" Width="120"/>
+
+    </Canvas>
+</Window>

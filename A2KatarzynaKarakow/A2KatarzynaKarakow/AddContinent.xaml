@@ -1,0 +1,17 @@
+﻿<Window x:Class="A2KatarzynaKarakow.AddContinent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A2KatarzynaKarakow"
+        mc:Ignorable="d"
+        Title="AddContinent" Height="450" Width="800">
+    <Canvas Height="434" VerticalAlignment="Top">
+        <Label x:Name="lblAddContinentName" Content="Continent Name" Margin="89,61,614,347"/>
+        <TextBox x:Name="txtContinentName" TextWrapping="Wrap" Margin="203,69,436,347" Width="120" Canvas.Left="-7"/>
+        <Button x:Name="btnAddContinenName" Content="Add Continent" Margin="138,130,581,284" Click="btnAddContinenName_Click"/>
+        <Button x:Name="btnClose" Content="Close" Margin="259,130,508,284" Click="btnClose_Click"/>
+        <Label x:Name="lblValMess" Content="Validation Message" Margin="433,61,74,176"/>
+
+    </Canvas>
+</Window>
